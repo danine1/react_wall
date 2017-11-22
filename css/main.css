@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: #4267B2;
+    color: #ffffff;
+}
+
+#page > div {
+    display: flex;
+
+}
+
+#page > div > * {
+    padding: 1em;
+}
+
+#page > div > nav a {
+    display: block;
+    white-space: nowrap;
+}
